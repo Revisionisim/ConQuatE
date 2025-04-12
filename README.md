@@ -1,19 +1,14 @@
-```markdown
+
 # ConQuatE
-
+The source code of article **Contextualized Quaternion Embedding Towards Polysemy in Knowledge Graph for Link Prediction（TALLIP 2024）**
 ## Dependencies
-
-```text
 Python 3.6+
 PyTorch 1.0+
 NumPy 1.17.2+
-```
 
 ## Reproduce the Results
 
-```text
 To reproduce the results of RQE and HRQE on WN18RR, FB15k237, WN18 and FB15K, please run the following commands.
-```
 
 ### WN18RR
 
@@ -29,10 +24,9 @@ python train_models.py  --model ConQuatE --dataset FB15K237 --train_times 5000 -
 
 ## Citation
 
-```text
+
 This code is based on the OpenKE project.
 To cite this work:
-```
 
 ```text
 @article{chenContextualizedQuaternionEmbedding2025,
